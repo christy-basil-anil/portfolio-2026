@@ -21,7 +21,7 @@ export default function Projects() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.65, delay: 0.1 }}
-          href="https://github.com/magicianchristy" 
+          href="https://github.com/christy-basil-anil" 
           target="_blank" 
           className="btn-outline h-fit"
         >
