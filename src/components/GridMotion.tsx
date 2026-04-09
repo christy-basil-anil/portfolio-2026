@@ -24,7 +24,7 @@ const GridMotion: React.FC<GridMotionProps> = ({ items = [], gradientColor = 'bl
   const itemsPerCol = 4;
   
   // Get unique image URLs to preload
-  const uniqueImages = Array.from(new Set(items.filter(item => typeof item === 'string' && (item.startsWith('http') || item.startsWith('/')))));
+  const uniqueImages = Array.from(new Set(items.filter(item => typeof item === 'string' && (item.startsWith('http') || item.startsWith('/') || /\\.(png|jpe?g|svg|webp|gif)$/i.test(item)))));
 
   useEffect(() => {
     if (uniqueImages.length === 0) {
@@ -162,7 +162,7 @@ const GridMotion: React.FC<GridMotionProps> = ({ items = [], gradientColor = 'bl
                   onClick={() => typeof content === 'string' && setSelectedImage(content)}
                 >
                   <div className="row__item-inner" style={{ backgroundColor: '#111' }}>
-                    {typeof content === 'string' && (content.startsWith('http') || content.startsWith('/')) ? (
+                    {typeof content === 'string' && (content.startsWith('http') || content.startsWith('/') || /\\.(png|jpe?g|svg|webp|gif)$/i.test(content)) ? (
                       <div
                         className="row__item-img"
                         style={{
