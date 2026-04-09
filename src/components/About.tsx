@@ -143,7 +143,7 @@ export default function About() {
               className="aspect-[3/4] rounded-2xl overflow-hidden border border-white/5 bg-bg-elevated group relative shadow-2xl"
             >
               <img 
-                src="/images/black.png" 
+                src="images/black.png" 
                 alt="Artistic Portrait" 
                 className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-110 will-change-transform"
                 referrerPolicy="no-referrer"

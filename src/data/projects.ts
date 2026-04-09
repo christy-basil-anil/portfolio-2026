@@ -18,7 +18,7 @@ export const PROJECTS: ProjectItem[] = [
     icon: '🎮',
     tags: ['Scratch'],
     demo: 'https://scratch.mit.edu/projects/1298143660',
-    img: '/project/project1.png',
+    img: 'project/project1.png',
     color: 'purple',
   },
   {
@@ -27,7 +27,7 @@ export const PROJECTS: ProjectItem[] = [
     desc: 'An obstacle detection rover I built for my college exhibition.',
     icon: '🤖',
     tags: ['Arduino'],
-    img: '/project/project2.jpeg',
+    img: 'project/project2.jpeg',
     color: 'cyan',
   },
   {
@@ -37,7 +37,7 @@ export const PROJECTS: ProjectItem[] = [
     icon: '🧠',
     tags: ['HTML', 'CSS', 'JS'],
     demo: 'https://christy-basil-anil.github.io/mentalhealthday/',
-    img: '/project/project3.png',
+    img: 'project/project3.png',
     color: 'amber',
   },
   {
@@ -47,7 +47,7 @@ export const PROJECTS: ProjectItem[] = [
     icon: '⚔️',
     tags: ['Scratch'],
     demo: 'https://scratch.mit.edu/projects/1304513915',
-    img: '/project/project4.jpg',
+    img: 'project/project4.jpg',
     color: 'default',
   },
   {
@@ -57,7 +57,7 @@ export const PROJECTS: ProjectItem[] = [
     icon: '🎬',
     tags: ['HTML', 'CSS', 'JS'],
     demo: 'https://netflixclone-tan-one.vercel.app/',
-    img: '/project/project5.png',
+    img: 'project/project5.png',
     color: 'default',
   },
 ];

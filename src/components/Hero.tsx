@@ -78,7 +78,7 @@ export default function Hero() {
             
             <div className="relative z-10 w-full h-full rounded-[28px] bg-bg-elevated border-[4px] border-bg-base overflow-hidden flex items-center justify-center group/img shadow-2xl">
               <img 
-                src="/images/me.png" 
+                src="images/me.png" 
                 alt="Christy Basil Anil" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover/img:scale-110"
                 referrerPolicy="no-referrer"
